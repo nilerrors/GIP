@@ -11,13 +11,17 @@ Na het geven van de water, gaat de ESP een request sturen naar de server om te l
 We kunnen ook zelf de planten water geven via de user-interface (bv: website).
 Dit wordt gerealiseerd door WebSockets.
 
+De ESP is de hele tijd in connectie met de server door WebSockets. Dit is meer efficient dan elke 10 seconden of 1 minuut een request te sturen.
+Bij WebSockets gaat de server na een bepaald aantal tijd een ping sturen om de connectie te houden.
+De requests gaan via WebSockets gestuurd worden.
+
 ### Level 1
 
 De planten automatisch water kunnen geven en dit registreren in een database.
 
 ### Level 2
 
-Een applicatie opbouwen met WebSockets, waar we zelf de planten water kunnen geven.
+Een applicatie opbouwen, waar we zelf de planten water kunnen geven.
 
 ### Level 3
 
