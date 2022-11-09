@@ -15,6 +15,14 @@ De ESP is de hele tijd in connectie met de server door WebSockets. Dit is meer e
 Bij WebSockets gaat de server na een bepaald aantal tijd een ping sturen om de connectie te houden.
 De requests gaan via WebSockets gestuurd worden.
 
+### Plant Management Systeem
+
+Er is een plant management systeem, waar gebruikers zich centraal kunnen registreren en hun planten kunnen ingeven.
+Er zijn dan drie mogelijkheden om de bewatering te realiseren:
+1. Automatische bewatering met plantenkennis
+1. Automatische bewatering a.d.h.v. vochtigheidsmeting
+1. Custom door gebruiker
+
 ### Level 1
 
 De planten automatisch water kunnen geven en dit registreren in een database.
